@@ -12,6 +12,9 @@ Python + Qt = 💚
 In pg.py, I refer to passgen_ui.py, namely, to the interface object, as a result, I fasten a call to a specific function.
 ```python
   form.pushButton.clicked.connect( default ) # We press the button
+```
+  
+Function  
 ```python
   # Generate 16x / default password by S-Mamashin
   def default():
@@ -22,4 +25,18 @@ In pg.py, I refer to passgen_ui.py, namely, to the interface object, as a result
   
           password = password + random.choice(list(all_kinds)) 
   
-      return form.lineEdit.setText(password), form.label.setText("Generated password of 16 characters!") 
+      return form.lineEdit.setText(password), form.label.setText("Generated password of 16 characters!")
+```
+---
+
+## ** How to run it?**
+You can use this after installing PyQt5 module
+* pip install pyqt5
+Or build it with pyinstaller
+* pyinstaller -F pg.py
+
+---
+## **Author**
+Stepan Mamashin
+
+
