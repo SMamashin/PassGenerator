@@ -3,7 +3,7 @@ from ui.pasgen_ui import Ui_Form
 from PyQt5 import uic, QtGui
 from PyQt5.QtWidgets import QApplication
 
-Form, Window = uic.loadUiType('C:/dev/projects/passgenerator/ui/passgen.ui')
+Form, Window = uic.loadUiType('ui/passgen.ui')
 
 app = QApplication([])
 window = Window()
