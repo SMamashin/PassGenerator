@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>418</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Cascadia Code</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>PassGenerator by S-Mamashin</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../source/appicon.ico</normaloff>../source/appicon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:  rgb(52, 50, 50);
+color: #fff;
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>411</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #fff;
+font-size: 15px;
+</string>
+   </property>
+   <property name="text">
+    <string>Добро пожаловать! by S-Mamashin</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">.QLineEdit {
+	background: #c8edb2;
+	border-radius: 5px;
+	padding: 10px;
+	width: 80%;
+	outline: none;
+	font-size: 18px;
+	text-align: center;
+	color: 2e312c;
+}
+
+.QLineEdit:hover {
+	opacity: 0.9;
+}
+</string>
+   </property>
+   <property name="dragEnabled">
+    <bool>true</bool>
+   </property>
+   <property name="readOnly">
+    <bool>false</bool>
+   </property>
+   <property name="placeholderText">
+    <string>Здесь будет ваш пароль!</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>381</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+	border: none;
+	background-color: rgb(81, 161, 94);
+	color: #fff;
+	border-radius: 6px;
+	width: 80%;
+	font-size: 20px;
+	text-align: center;
+}
+
+QPushButton:hover {
+	color:#cbe7f5;
+}
+
+QPushButton:pressed {
+	background-color: #6fa94c ;
+}</string>
+   </property>
+   <property name="text">
+    <string>Сгенерировать</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>311</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(81, 161, 94);
+	color: #fff;
+	border-radius: 6px;
+	width: 80%;
+	font-size: 13px;
+	text-align: center;
+}
+
+QPushButton:hover {
+	color:#cbe7f5;
+}
+
+QPushButton:pressed {
+	background-color: #6fa94c ;
+}</string>
+      </property>
+      <property name="text">
+       <string>8 символов</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(81, 161, 94);
+	color: #fff;
+	border-radius: 6px;
+	width: 80%;
+	font-size: 13px;
+	text-align: center;
+}
+
+QPushButton:hover {
+	color:#cbe7f5;
+}
+
+QPushButton:pressed {
+	background-color: #6fa94c ;
+}</string>
+      </property>
+      <property name="text">
+       <string>16 символов</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(81, 161, 94);
+	color: #fff;
+	border-radius: 6px;
+	width: 80%;
+	font-size: 13px;
+	text-align: center;
+}
+
+QPushButton:hover {
+	color:#cbe7f5;
+}
+
+QPushButton:pressed {
+	background-color: #6fa94c ;
+}</string>
+      </property>
+      <property name="text">
+       <string>32 символа</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>320</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #fff;
+font-size: 13px;</string>
+   </property>
+   <property name="text">
+    <string>Пароли никуда не передаются!&lt;br&gt; Исходный код доступен на &lt;a style=&quot;color: pink; text-decoration: red underline;&quot;  href=&quot;https://github.com/SMamashin/PassGenerator&quot;&gt;GitHub&lt;/a&gt;.</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
