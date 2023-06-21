@@ -32,7 +32,9 @@ Function
 ## **How to run it?**
 You can use this after installing PyQt5 module
 * pip install pyqt5
+  
 Or build it with pyinstaller
+
 * pyinstaller -F pg.py
 
 ---
