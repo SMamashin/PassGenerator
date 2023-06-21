@@ -113,7 +113,7 @@ QPushButton:pressed {
     <string>Сгенерировать</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -215,6 +215,24 @@ font-size: 13px;</string>
    </property>
    <property name="text">
     <string>Пароли никуда не передаются!&lt;br&gt; Исходный код доступен на &lt;a style=&quot;color: pink; text-decoration: red underline;&quot;  href=&quot;https://github.com/SMamashin/PassGenerator&quot;&gt;GitHub&lt;/a&gt;.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>411</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #fff;
+font-size: 12px;
+</string>
+   </property>
+   <property name="text">
+    <string>Последний пароль:</string>
    </property>
   </widget>
  </widget>
