@@ -8,6 +8,11 @@ My application allows the user to generate a password of 8/16/32 characters of t
 I wrote this application in pure Python 🐍, I assembled the interface using Qt5 using a little css for the look.
 Python + Qt = 💚
 
+---
+## **Preview**
+<img src="./source/ui_view.png"  alt="error" title="ui_preview">
+
+---
 ## **How it works?**
 In pg.py, I refer to passgen_ui.py, namely, to the interface object, as a result, I fasten a call to a specific function.
 ```python
@@ -36,6 +41,7 @@ You can use this after installing PyQt5 module
 Or build it with pyinstaller
 
 * pyinstaller -F pg.py
+
 
 ---
 ## **Author**
