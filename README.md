@@ -47,4 +47,8 @@ Or build it with pyinstaller
 ## **Author**
 Stepan Mamashin
 
+## **Link's**
+[BLASTHACK](hhttps://www.blast.hk/threads/183886/) topic
+
+
 
