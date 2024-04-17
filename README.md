@@ -38,14 +38,13 @@ Function
 You can use this after installing PyQt5 module
 * pip install pyqt5
   
-Or build it with pyinstaller
-
+Or build it with pyinstaller - ***pip install pyinstaller***
 * pyinstaller -F pg.py
 
 
 ---
 ## **Author**
-Stepan Mamashin
+Stepan Mamashin / SMamashin
 
 ## **Link's**
 [BLASTHACK](https://www.blast.hk/threads/183886/) topic
